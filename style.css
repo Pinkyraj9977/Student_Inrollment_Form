@@ -1,0 +1,112 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-picture-id1353553203?b=1&k=20&m=1353553203&s=170667a&w=0&h=QTyTGI9tWQluIlkmwW0s7Q4z7R_IT8egpzzHjW3cSas=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(248, 110, 12);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: initial;
+    margin: 40px auto;
+    border-style: groove;
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 241, 241);
+}
+
+table.list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    border-radius: 0.5cm;
+}
+
+td {
+    border: 1px solid rgb(170, 208, 243);
+    text-align: left;
+    padding: 8px 15px;
+    background-color: rgb(186, 223, 243);
+    color: #000000;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: #f17074;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: #1c2541;
+    border-radius: 1.5cm;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background: #f4f3f4;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #020f03;
+    color: rgb(69, 233, 102);
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+tbody {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-part {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+button {
+    background: #222324;
+    color: rgb(49, 247, 102);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
